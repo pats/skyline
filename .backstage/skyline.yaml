@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: skyline
+  description: null
+  annotations:
+    github.com/project-slug: pats/skyline
+  tags:
+    - frontend
+    - codesnoop
+spec:
+  owner: pats
