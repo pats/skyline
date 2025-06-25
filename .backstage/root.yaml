@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: root
+  annotations:
+    github.com/project-slug: pats/skyline
+  tags:
+    - website
+    - nodejs
+    - frontend
+    - codesnoop
+spec:
+  type: website
+  owner: pats
+  lifecycle: production
+  system: skyline
